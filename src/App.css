@@ -21,11 +21,11 @@ body {
     grid-template-rows: 20px 0;
     grid-gap: 22px;
     color:rgb(0, 17, 255);
-  }
-  
-  .title h1:after,.title h1:before {
+}
+
+.title h1:after,.title h1:before {
     content: "";
     display: block;
     border-bottom: 2px solid rgb(0, 238, 255);
-  }
-  
+}
+

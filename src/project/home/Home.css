@@ -1,0 +1,21 @@
+.projects_box {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.projects_box .project {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px rgba(0, 60, 255, 0.808);
+}
+
+
+
