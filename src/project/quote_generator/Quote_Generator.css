@@ -1,0 +1,105 @@
+.app {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+	
+.card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+	
+.heading {
+	display: flex;
+	align-items: center;
+	height: 350px;
+	font-family: 'Spartan', sans-serif;
+}
+	
+.button {
+	position: relative;
+	outline: none;
+	text-decoration: none;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	height: 4em;
+	width: 20em;
+	opacity: 1;
+	background-color: #e3d0b3;
+	border: 1px solid rgba(#653a03);
+}
+	
+.button span {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1.7px;;
+}
+	
+.button:hover {
+	animation: rotate 0.7s ease-in-out both;
+}
+	
+.button:hover span {
+	animation: storm 0.7s ease-in-out both;
+	animation-delay: 0.06s;
+}
+	
+@keyframes rotate {
+	0% {
+	transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+	25% {
+	transform: rotate(3deg) translate3d(0, 0, 0);
+	}
+	50% {
+	transform: rotate(-3deg) translate3d(0, 0, 0);
+	}
+	75% {
+	transform: rotate(1deg) translate3d(0, 0, 0);
+	}
+	100% {
+	transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+}
+	
+@keyframes storm {
+	0% {
+	transform: translate3d(0, 0, 0) translateZ(0);
+	}
+	25% {
+	transform: translate3d(4px, 0, 0) translateZ(0);
+	}
+	50% {
+	transform: translate3d(-3px, 0, 0) translateZ(0);
+	}
+	75% {
+	transform: translate3d(2px, 0, 0) translateZ(0);
+	}
+	100% {
+	transform: translate3d(0, 0, 0) translateZ(0);
+	}
+}
+
+@media only screen and (max-width: 1007px) {
+	.card {
+		width: 60%;
+		height: 30%;
+	}
+}
+	
+@media only screen and (max-width: 600px) {
+	.card {
+		width: 80%;
+		height: 40%;
+	}
+}
