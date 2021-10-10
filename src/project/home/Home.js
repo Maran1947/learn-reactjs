@@ -9,16 +9,15 @@ function Home() {
                 <h1>Learn React.js</h1>
             </div>
             <div className="projects_box">
-                {/* Add your project card here*/}
-                
-                    <div className="project">
-                        <h1>Quote_Generator</h1>
-                        <Link to="/quote_generator">Let's go there</Link>
-                    </div>
-                          
+                {/* Add your project card below*/}
+
                 <div className="project">
-                    <h1>Counter</h1>
+                    <h2>Counter</h2>
                     <Link to="/counter">Let's go there</Link>
+                </div>
+                <div className="project">
+                    <h2>Quote Generator</h2>
+                    <Link to="/quote_generator">Let's go there</Link>
                 </div>
 
             </div>
