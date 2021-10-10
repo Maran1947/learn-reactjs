@@ -20,18 +20,7 @@ It's time to run the project
     $ npm start
 ```
 ## Contribution
-Contributions are welcome
+Contributions are welcome,
+See [CONTRIBUTING.md](https://github.com/Maran1947/learn_react_js/blob/master/CONTRIBUTING.md)
 
-Steps to add your projects to this repo:
-* create your project in project folder
-* create the your_project_name folder in lowercase
-        - do your project work here
-* After that, go to the Home component (Home.js) and add your project card in it
-* Now, go to the App.js file and add your project route
-* Finally, check your route works properly
-
-Don't forget to show your ❤ love if you feel __fabulous__, just hit the ⭐ star button at the top-right of the page
-
-
-
-
+_Don't forget to show your ❤ love if you feel __fabulous__, just hit the ⭐ star button at the top-right of the page_
