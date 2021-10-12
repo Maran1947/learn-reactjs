@@ -6,6 +6,10 @@
     row-gap: 50px;
 }
 
+.projects_box .project h2 {
+    text-align: center;
+}
+
 .projects_box .project {
     width: 150px;
     height: 150px;
@@ -15,6 +19,11 @@
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 5px rgba(0, 60, 255, 0.808);
+}
+
+.projects_box .project:hover {
+    transition: all 0.3s;
+    box-shadow: 1px 1px 8px rgba(0, 60, 255, 1);
 }
 
 

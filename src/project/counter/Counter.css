@@ -28,7 +28,8 @@
 }
 
 .counter_content p {
-    margin: 0px 8px;
+    font-size: 32px;
+    padding: 0px 14px;
 }
 
 .counter_content button:hover {

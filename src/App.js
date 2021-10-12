@@ -4,6 +4,7 @@ import Counter from './project/counter/counter';
 import meme_generator from './project/meme_generator/MemeGenerator';
 import quote_generator from './project/quote_generator/Quote_Generator';
 import Home from './project/home/Home';
+import Search from './project/search/Search'
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/counter" component={Counter} />
+          <Route path="/search" component={Search} />
           <Route path="/quote_generator" component={quote_generator} />
           <Route path="/meme_generator" component={meme_generator} />
-          {/* Add your project route here */}
-          <Route path="/counter" component={Counter} />
         </Switch>
       </div>
     </Router>
