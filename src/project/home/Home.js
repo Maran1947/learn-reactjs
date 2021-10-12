@@ -19,6 +19,10 @@ function Home() {
                     <h2>Quote Generator</h2>
                     <Link to="/quote_generator">Let's go there</Link>
                 </div>
+                <div className="project">
+                    <h2>Search Functionality</h2>
+                    <Link to="/search">Let's go there</Link>
+                </div>
 
             </div>
         </div>
