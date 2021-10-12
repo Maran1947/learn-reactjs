@@ -11,10 +11,15 @@ function Home() {
             <div className="projects_box">
                 {/* Add your project card here*/}
                 
-                    <div className="project">
-                        <h1>Quote_Generator</h1>
-                        <Link to="/quote_generator">Let's go there</Link>
-                    </div>
+                <div className="project">
+                    <h1>Quote_Generator</h1>
+                    <Link to="/quote_generator">Let's go there</Link>
+                </div>
+
+                 <div className="project">
+                    <h1>Meme Generator</h1>
+                    <Link to="/meme_generator">Let's go there</Link>
+                </div>
                           
                 <div className="project">
                     <h1>Counter</h1>
