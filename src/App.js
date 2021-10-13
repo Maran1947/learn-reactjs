@@ -1,15 +1,15 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Counter from './project/counter/Counter';
-import meme_generator from './project/meme_generator/MemeGenerator';
-import quote_generator from './project/quote_generator/Quote_Generator';
-import Home from './project/home/Home';
-import Search from './project/search/Search'
-import Slider from './project/responsive_slider/Slider';
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Counter from "./project/counter/counter";
+import meme_generator from "./project/meme_generator/MemeGenerator";
+import quote_generator from "./project/quote_generator/Quote_Generator";
+import Home from "./project/home/Home";
+import Search from "./project/search/Search";
+import Slider from "./project/responsive_slider/Slider";
 
 function App() {
   return (
-    <Router >
+    <Router>
       <div className="App">
         <Switch>
           <Route path="/" exact component={Home} />
