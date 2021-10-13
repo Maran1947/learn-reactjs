@@ -1,7 +1,7 @@
 # Learn React JS
 This project will help you to learn react.js and like the root of the tree will strengthen your concepts and give you project-based learning.
 
-## Setup 
+## 🏗 Setup 
 1. Fork the repo by clicking the fork button
 2. Clone the repo
 ```
@@ -19,8 +19,11 @@ It's time to run the project
 ```
     $ npm start
 ```
-## Contribution
+## 🤝 Contribution
 Contributions are welcome,
 See [CONTRIBUTING.md](https://github.com/Maran1947/learn_react_js/blob/master/CONTRIBUTING.md)
+
+# 🛡️ License
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 _Don't forget to show your ❤ love if you feel __fabulous__, just hit the ⭐ star button at the top-right of the page_

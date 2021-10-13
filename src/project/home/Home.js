@@ -10,7 +10,6 @@ function Home() {
             </div>
             <div className="projects_box">
                 {/* Add your project card below*/}
-
                 <div className="project">
                     <h2>Counter</h2>
                     <Link to="/counter">Let's go there</Link>
