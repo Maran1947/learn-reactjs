@@ -31,7 +31,7 @@ class quote_generator extends React.Component {
 
 		return (
 			<div className="app">
-				<div className="card">
+				<div className="quote_card">
 					<h1 className="heading">
 						{this.state.loading ? <Loader type="ThreeDots"
 							color="#00BFFF"

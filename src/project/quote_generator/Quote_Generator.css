@@ -8,10 +8,11 @@
 	text-align: center;
 }
 	
-.card {
+.quote_card {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	background-color: rgba(253, 248, 234, 0.966)!important;
 }
 	
 .heading {
@@ -42,7 +43,7 @@
 	color: #000;
 	font-size: 14px;
 	font-weight: 600;
-	letter-spacing: 1.7px;;
+	letter-spacing: 1.7px;
 }
 	
 .button:hover {

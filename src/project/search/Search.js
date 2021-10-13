@@ -12,7 +12,7 @@ function Search() {
     }
 
     return (
-        <>
+        <main>
             <div className="search-div">
                 <input id="search-el" type="text" placeholder="Search..." value={searchTerm.value} onChange={handleOnChange('value')} />
             </div>
@@ -25,7 +25,7 @@ function Search() {
                     </div>
                 ))}
             </div>
-        </>
+        </main>
     );
 }
 
