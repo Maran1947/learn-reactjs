@@ -30,6 +30,10 @@ function Home() {
                     <h2>Responsive slider</h2>
                     <Link to="/slider">Let's go there</Link>
                 </div>
+                <div className="project">
+                    <h2>Currency Converter</h2>
+                    <Link to="/currency_converter">Let's go there</Link>
+                </div>
 
             </div>
         </div>
