@@ -1,43 +1,29 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
+import ResponsiveCard from '../responsive_card/ResponsiveCard';
 import './Home.css';
 
 function Home() {
-    return (
-        <div className="home_container">
-            <div className="title">
-                <h1>Learn React.js</h1>
-            </div>
-            <div className="projects_box">
-                {/* Add your project card below*/}
-                <div className="project">
-                    <h2>Counter</h2>
-                    <Link to="/counter">Let's go there</Link>
-                </div>
-                 <div className="project">
-                    <h2>Meme Generator</h2>
-                    <Link to="/meme_generator">Let's go there</Link>
-                </div>
-                <div className="project">
-                    <h2>Quote Generator</h2>
-                    <Link to="/quote_generator">Let's go there</Link>
-                </div>
-                <div className="project">
-                    <h2>Search Functionality</h2>
-                    <Link to="/search">Let's go there</Link>
-                </div>
-                <div className="project">
-                    <h2>Responsive slider</h2>
-                    <Link to="/slider">Let's go there</Link>
-                </div>
-                <div className="project">
-                    <h2>Currency Converter</h2>
-                    <Link to="/currency_converter">Let's go there</Link>
-                </div>
+  return (
+    <div className='home_container'>
+      <div className='title'>
+        <h1>Learn React.js</h1>
+      </div>
+      <div className='projects_box'>
+        {/* Add your project card below*/}
 
-            </div>
-        </div>
-    )
+        <ResponsiveCard title='Counter' route='/counter' />
+        <ResponsiveCard title='Meme Generator' route='/meme_generator' />
+        <ResponsiveCard title='Quote Generator' route='/quote_generator' />
+        <ResponsiveCard title='Search Functionality' route='/search' />
+        <ResponsiveCard title='Responsive slider' route='/slider' />
+        <ResponsiveCard
+          title='Currency Converter'
+          route='/currency_converter'
+        />
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,30 +1,28 @@
 .projects_box {
-    width: 80%;
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects_box .project h2 {
-    text-align: center;
-    font-size: 24px;
+  text-align: center;
+  font-size: 24px;
 }
 
 .projects_box .project {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    margin: 24px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 1px 1px 5px rgba(0, 60, 255, 0.808);
+  width: 250px;
+  height: 250px;
+  display: flex;
+  margin: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 5px rgba(0, 60, 255, 0.808);
 }
 
 .projects_box .project:hover {
-    transition: all 0.3s;
-    box-shadow: 1px 1px 8px rgba(0, 60, 255, 1);
+  transition: all 0.3s;
+  box-shadow: 1px 1px 8px rgba(0, 60, 255, 1);
 }
-
-
-

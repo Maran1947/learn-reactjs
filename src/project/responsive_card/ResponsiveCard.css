@@ -1,0 +1,40 @@
+.responsivecard {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.responsivecard h2 {
+  text-align: center;
+  color: rgba(0, 60, 255, 0.808);
+  font-size: 24px;
+}
+.responsivecard {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  margin: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border-radius: 6px;
+}
+
+.responsivecard:hover {
+  transition: all 0.3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: scale(1.06);
+}
+
+.responsivecard a {
+  text-decoration: none;
+}
+
+.responsivecard a:hover {
+  text-decoration: underline;
+}
