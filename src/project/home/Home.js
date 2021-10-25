@@ -23,7 +23,6 @@ function Home() {
             buttonTitle="Let's go there"
             buttonLink="/meme_generator"
           />
-
           <Card
             title="Meme Generator"
             description="Mems section here.."

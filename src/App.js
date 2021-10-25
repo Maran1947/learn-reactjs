@@ -1,11 +1,13 @@
-import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Counter from "./project/counter/counter";
-import meme_generator from "./project/meme_generator/MemeGenerator";
-import quote_generator from "./project/quote_generator/Quote_Generator";
-import Home from "./project/home/Home";
-import Search from "./project/search/Search";
-import Slider from "./project/responsive_slider/Slider";
+
+import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Counter from './project/counter/counter';
+import meme_generator from './project/meme_generator/MemeGenerator';
+import quote_generator from './project/quote_generator/Quote_Generator';
+import Home from './project/home/Home';
+import Search from './project/search/Search'
+import Slider from './project/responsive_slider/Slider';
+import CurrencyConverter from './project/currency_converter/CurrencyConverter';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/quote_generator" component={quote_generator} />
           <Route path="/meme_generator" component={meme_generator} />
           <Route path="/slider" component={Slider} />
+          <Route path="/currency_converter" component={CurrencyConverter} />
         </Switch>
       </div>
     </Router>
