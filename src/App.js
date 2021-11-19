@@ -1,3 +1,4 @@
+
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Counter from './project/counter/counter';
@@ -7,7 +8,6 @@ import Home from './project/home/Home';
 import Search from './project/search/Search'
 import Slider from './project/responsive_slider/Slider';
 import CurrencyConverter from './project/currency_converter/CurrencyConverter';
-
 
 function App() {
   return (

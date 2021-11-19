@@ -1,0 +1,14 @@
+.card_shadow {
+  width: 14rem;
+  box-shadow: 0px 10px 5px #aaaaaa;
+  border-radius: 1rem !important;
+}
+
+@media (max-width: 1024px) {
+  .card_shadow {
+    margin-bottom: 2rem;
+    width: 14rem;
+    height: auto;
+    box-shadow: 0px 10px 5px #aaaaaa;
+  }
+}
