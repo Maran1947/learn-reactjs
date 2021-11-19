@@ -3,6 +3,7 @@
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projects_box .project h2 {
