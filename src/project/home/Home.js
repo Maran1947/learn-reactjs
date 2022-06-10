@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Card from "../card/Card";
+import Card from "../card/card.js";
 import "./Home.css";
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
       <div className="title">
         <h1>Learn React.js</h1>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="row gx-3 pt-4 pb-4 text-decoration-none">
           <Card
             title="Counter"
@@ -44,7 +44,7 @@ function Home() {
             buttonLink="/meme_generator"
           />
         </div>
-      </div>
+      </div> */}
       <div className="projects_box">
         {/* Add your project card below*/}
 
@@ -67,6 +67,14 @@ function Home() {
         <div className="project">
           <h2>Responsive slider</h2>
           <Link to="/slider">Let's go there</Link>
+        </div>
+        <div className="project">
+          <h2>Currency Converter</h2>
+          <Link to="/currency_converter">Let's go there</Link>
+        </div>
+        <div className="project">
+          <h2>React Quiz</h2>
+          <Link to="/react_quiz">Let's go there</Link>
         </div>
       </div>
     </div>

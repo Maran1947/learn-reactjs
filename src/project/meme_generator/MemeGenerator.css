@@ -4,7 +4,7 @@
   margin: auto;
   }
 
-  button {
+  .btn-generate {
     position: relative;
     outline: none;
     text-decoration: none;
@@ -18,7 +18,7 @@
     border: 1px solid rgba(#653a03);
   }
 
-  button :hover{
+  .btn-generate :hover{
     font-size: 18px;
     border-radius: 29px;
     border-color: #cfbe1f;
