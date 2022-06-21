@@ -1,0 +1,49 @@
+.greeting_box {
+    width: 100%;
+    height: 100vh;
+}
+
+.greeting_box .gb_content_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+}
+
+.gb_content_date_text {
+    font-family: 'Joan', serif;
+}
+
+.gb_content_time_text {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.gb_content_greet_text {
+    margin: 2rem 0rem;
+    font-family: 'Fascinate', cursive;
+    font-size: 5rem;
+}
+
+.gb_content_middle {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.gb_content_bottom {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.gb_content_btn_sleep {
+    outline: none;
+    border: none;
+    font-family: 'Joan', serif;
+    padding: 0.6rem 3rem;
+    border-radius: 50px;
+    transition: all 0.5s;
+    font-size: 1.2rem;
+}
+
+.gb_content_btn_sleep:hover {
+    background: #fff;
+    border: 1px solid #000;
+}

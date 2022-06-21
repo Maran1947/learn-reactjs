@@ -76,6 +76,10 @@ function Home() {
           <h2>React Quiz</h2>
           <Link to="/react_quiz">Let's go there</Link>
         </div>
+        <div className="project">
+          <h2>Greeting</h2>
+          <Link to="/greeting">Let's go there</Link>
+        </div>
       </div>
     </div>
   );

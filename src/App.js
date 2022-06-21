@@ -9,6 +9,7 @@ import Search from './project/search/Search';
 import Slider from './project/responsive_slider/Slider';
 import CurrencyConverter from './project/currency_converter/CurrencyConverter';
 import React_Quiz from './project/reactquiz/React_Quiz';
+import Greeting from './project/greeting/Greeting';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/slider" component={Slider} />
           <Route path="/currency_converter" component={CurrencyConverter} />
           <Route path="/react_quiz" component={React_Quiz} />
+          <Route path="/greeting" component={Greeting} />
         </Switch>
       </div>
     </Router>
