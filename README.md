@@ -1,6 +1,8 @@
 # Learn React JS
 This project will help you to learn react.js and like the root of the tree will strengthen your concepts and give you project-based learning.
 
+![Learn React.js Home Screen](./screens/lr_home_screen.png)
+
 ## 🏗 Setup 
 1. Fork the repo by clicking the fork button
 2. Clone the repo
