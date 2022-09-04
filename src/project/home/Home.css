@@ -20,10 +20,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 1px 5px rgba(0, 60, 255, 0.808);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.808);
 }
 
 .projects_box .project:hover {
   transition: all 0.3s;
-  box-shadow: 1px 1px 8px rgba(0, 60, 255, 1);
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+
+.btn_lets_go_there {
+  text-decoration: none;
+  background: #000;
+  border-radius: 50px;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn_lets_go_there:hover {
+  color: #000;
+  background: #fff;
+  transition: all 0.5s;
+  border: 1px solid #000;
 }

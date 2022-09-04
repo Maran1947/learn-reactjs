@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(253, 248, 234, 0.966)!important;
+    background-color: rgb(253,248,234)!important;
 }
 
 .title {
@@ -12,7 +12,9 @@ body {
 }
 
 .title h1 {
-    margin: 20px 0px;
+    width: 76%;
+    margin: 20px auto;
+    font-weight: bold;
     text-align: center;
     font-size: 26px; 
     letter-spacing: 1px;
@@ -20,12 +22,14 @@ body {
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: 20px 0;
     grid-gap: 22px;
-    color:rgb(0, 17, 255);
+    color:rgb(255, 255, 255);
+    background: #000;
+    padding: 10px 0px 5px;
 }
 
 .title h1:after,.title h1:before {
     content: "";
     display: block;
-    border-bottom: 2px solid rgb(0, 238, 255);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 

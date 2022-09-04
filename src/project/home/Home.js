@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home_container">
       <div className="title">
-        <h1>Learn React.js</h1>
+        <h1 className="learn_reactjs_text" >Learn React.js</h1>
       </div>
       {/* <div className="container">
         <div className="row gx-3 pt-4 pb-4 text-decoration-none">
@@ -50,35 +50,35 @@ function Home() {
 
         <div className="project">
           <h2>Counter</h2>
-          <Link to="/counter">Let's go there</Link>
+          <Link to="/counter" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>Meme Generator</h2>
-          <Link to="/meme_generator">Let's go there</Link>
+          <Link to="/meme_generator" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>Quote Generator</h2>
-          <Link to="/quote_generator">Let's go there</Link>
+          <Link to="/quote_generator" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>Search Functionality</h2>
-          <Link to="/search">Let's go there</Link>
+          <Link to="/search" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>Responsive slider</h2>
-          <Link to="/slider">Let's go there</Link>
+          <Link to="/slider" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>Currency Converter</h2>
-          <Link to="/currency_converter">Let's go there</Link>
+          <Link to="/currency_converter" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>React Quiz</h2>
-          <Link to="/react_quiz">Let's go there</Link>
+          <Link to="/react_quiz" className="btn_lets_go_there" >Let's go there</Link>
         </div>
         <div className="project">
           <h2>Greeting</h2>
-          <Link to="/greeting">Let's go there</Link>
+          <Link to="/greeting" className="btn_lets_go_there" >Let's go there</Link>
         </div>
       </div>
     </div>
